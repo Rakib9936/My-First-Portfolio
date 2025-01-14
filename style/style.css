@@ -7,6 +7,9 @@
       "wdth" 100;
   }
   /* primary style */
+  .secndary-bg{
+    background-color: #FFF8F3;
+  }
   .primary{
     color:#FD6E0A ;
   }
@@ -76,4 +79,38 @@ nav ul a{
 }
 .banner-profile-pic{
     width: 580px;
+}
+/* about section */
+
+.section-title{
+   font-weight: bold; 
+   font-size: 35px;
+   color: 181818;
+   text-align: center;
+}
+.section-description{
+font-size: 18px;
+color:757575 ;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+/* about */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+text-align: center;
+margin-top: 130px;
+
+}
+/* item style */
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.iten-description{
+    font-weight: 600;
 }
